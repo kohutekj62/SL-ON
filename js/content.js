@@ -28,8 +28,8 @@ const CONTENT = {
         Until then the site still works; buttons just point to a placeholder.
      ====================================================================== */
   config: {
-    email:            "TODO@staryliskovec-on.cz",   // your campaign e-mail
-    phone:            "+420 000 000 000",            // shown in the Contact section
+    email:            "slon@staryliskovec-on.cz",    // your campaign e-mail
+    phone:            "",                            // hidden — no phone support
     facebook:         "https://facebook.com/",       // your Facebook page URL (or "" to hide)
     instagram:        "https://instagram.com/",      // your Instagram URL (or "" to hide)
     twitter:          "",                            // X/Twitter URL (empty = hidden)
@@ -38,7 +38,7 @@ const CONTENT = {
     // Working contact form. Create a free form at https://formspree.io, then paste
     // ONLY the code from your form URL here (the part after /f/). Example: "xpzgkqab".
     // Leave as "" and the form falls back to opening the visitor's e-mail app instead.
-    formspreeId:      "",
+    formspreeId:      "xvznwgqr",
 
     // Newsletter sign-up. Paste the "form action" URL from your e-mail tool
     // (Mailchimp / Ecomail / MailerLite). Leave "" to disable the newsletter box.
