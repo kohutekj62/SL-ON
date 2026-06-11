@@ -151,7 +151,7 @@ const CONTENT = {
       hero_kicker:   "Municipal elections — autumn 2026",
       hero_title_1:  "STARÝ LÍSKOVEC",
       hero_title_2:  "ON",
-      hero_tagline:  "Open and imaginative. A coalition of the Pirates and the Greens for our Starý Lískovec.",
+      hero_tagline:  "Open and novel. A coalition of the Pirates and the Greens for our Starý Lískovec.",
       hero_cta_1:    "Our programme",
       hero_cta_2:    "Meet us",
       hero_logo_alt: "Starý Lískovec ON logo",
