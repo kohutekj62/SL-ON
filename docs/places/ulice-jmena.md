@@ -416,6 +416,44 @@ Sídlišťní uliční názvosloví je čtení samo o sobě: vrstva sovětské g
 
 ## Přehled — co chybí
 
+## 12. Martina Ševčíka
+
+| Položka | Hodnota |
+|---|---|
+| Pojmenováno po | Martin Ševčík (1883–1944) |
+| Kdo byl | Brněnský komunální dělník a odborový organizátor |
+| Příběh | Umučen nacisty v roce 1944 za účast v odboji |
+| Pojmenováno | 25. 9. 1946 — stejný den jako Jemelkova |
+| Dříve | Spěšná / Abkürzungsgasse (od 1927) |
+
+### Fotografie k pořízení
+- [ ] Cedule „Martina Ševčíka"
+- **Uložit jako:** `pexeso/assets/ulice-jmena/sevcikova-ul.jpg` (600 × 450 px, JPEG)
+
+### Hotový obsah pro pexeso
+
+```js
+{
+  id: "sevcikova-ul",
+  photo: "assets/ulice-jmena/sevcikova-ul.jpg",  // zatím null
+  emoji: "🔨",
+  cs: {
+    name: "Martina Ševčíka",
+    location: "Martina Ševčíka, Brno–Starý Lískovec",
+    desc: "Ulice nese jméno Martina Ševčíka (1883–1944), brněnského komunálního dělníka a odborového organizátora, který byl nacisty umučen za účast v odboji proti okupaci.",
+    history: "Pojmenována 25. září 1946 — stejný den jako Jemelkova. Oba muži byli oběti nacistické éry z lískovecké komunity uctěné najednou: dva civilisté, dvě ulice, jeden den.",
+  },
+  en: {
+    name: "Martina Ševčíka",
+    location: "Martina Ševčíka, Brno–Starý Lískovec",
+    desc: "Named after Martin Ševčík (1883–1944), a Brno municipal worker and labour organiser who was tortured to death by the Nazis for his participation in the resistance against occupation.",
+    history: "Named on 25 September 1946 — the same day as Jemelkova. Both men were local victims of Nazi persecution honoured simultaneously: two civilians, two streets, one day.",
+  },
+},
+```
+
+---
+
 | Ulice | Foto | Pexeso přidáno |
 |---|---|---|
 | Palachovo náměstí | ☐ | ✓ |
@@ -429,6 +467,7 @@ Sídlišťní uliční názvosloví je čtení samo o sobě: vrstva sovětské g
 | Klobásova | ☐ | ✓ |
 | Irkutská | ☐ | ✓ |
 | Kyjevská | ☐ | ✓ |
+| Martina Ševčíka | ☐ | ✓ |
 
 ### Tip pro fotografování
 Pro tyto záznamy stačí kvalitní záběr uliční cedule na pozadí zástavby. Nejzajímavěji vychází cedule s nízkým sluncem (zlatá hodinka) nebo za deště s mokrou dlažbou.
