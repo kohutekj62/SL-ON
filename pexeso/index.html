@@ -594,7 +594,7 @@ function renderReviewPanel() {
   panel.innerHTML = ROUNDS.map(r => {
     const rows = r.places.map(p => {
       const mUrl = p.coords
-        ? `https://www.google.com/maps?layer=c&cbll=${p.coords}${p.azimuth != null ? `&cbp=12,${p.azimuth},0,0,0` : ''}`
+        ? `https://www.google.com/maps?q=${p.coords}&z=18`
         : null;
       const mLink = mUrl
         ? `<a class="review-link review-link--m" href="${mUrl}" target="_blank" rel="noopener noreferrer" title="Street View">m</a>`
@@ -847,7 +847,7 @@ function showInfoCard(pair) {
     const [lat, lng] = pair.coords.split(",").map(Number);
     // q=lat,lng opens a pin at the exact coordinates; Google Maps shows the place card if
     // the location is known in its database, otherwise just the pin.
-    const mapUrl = `https://www.google.com/maps?q=${lat},${lng}`;
+    const mapUrl = `https://www.google.com/maps?q=${lat},${lng}&z=18`;
     linksDiv.innerHTML += `<a class="info-card__link info-card__link--map" href="${mapUrl}" target="_blank" rel="noopener noreferrer">${t("link_map")}</a>`;
   }
   if (pair.web) {
