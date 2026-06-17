@@ -58,7 +58,7 @@
       background: var(--surface); border-bottom: 3px solid var(--green);
     }
     .site-header a { display: flex; align-items: center; text-decoration: none; }
-    .site-header img { height: 30px; width: auto; }
+    .site-header img { height: 34px; width: auto; background: #fff; border-radius: 8px; padding: 4px 10px; }
 
     /* ── LANG TOGGLE ── */
     .lang-toggle {
@@ -156,8 +156,8 @@
       position: absolute; inset: 0; backface-visibility: hidden;
       border-radius: 10px; overflow: hidden; border: 2px solid #2a2a2a;
     }
-    .card__back  { background: var(--surface2); display: flex; align-items: center; justify-content: center; }
-    .card__back img { width: 72%; height: 72%; object-fit: contain; opacity: 0.9; }
+    .card__back  { background: #fff; display: flex; align-items: center; justify-content: center; }
+    .card__back img { width: 72%; height: 72%; object-fit: contain; }
     .card__front { transform: rotateY(180deg); background: var(--surface); display: flex; align-items: center; justify-content: center; }
     .card__front img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; flex-shrink: 0; }
     .card__front .card__label {
@@ -301,7 +301,7 @@
     .site-footer a { color: var(--green); text-decoration: none; }
     .site-footer a:hover { text-decoration: underline; }
     .site-footer__credit { margin-top: 0.6rem; max-width: 60ch; margin-inline: auto; }
-    .site-footer__badge { display: block; height: 46px; width: auto; margin: 0 auto 1.25rem; }
+    .site-footer__badge { display: block; height: 56px; width: auto; margin: 0 auto 1.25rem; background: #fff; border-radius: 12px; padding: 8px 16px; }
   </style>
 </head>
 <body>
@@ -313,7 +313,7 @@
 
 <header class="site-header">
   <a href="../" aria-label="Starý Lískovec ON">
-    <img src="../assets/logo-slon-podelne.svg" alt="Starý Lískovec ON" />
+    <img src="../assets/logo-liskovec-jsi-ty.png" alt="Lískovec jsi ty!" />
   </a>
   <div class="lang-toggle" id="lang-toggle" role="button" tabindex="0"
        aria-label="Přepnout jazyk / Switch language">
@@ -815,7 +815,7 @@ function renderGame() {
     return `<div class="card" data-pair="${c.pairId}" data-idx="${i}">
       <div class="card__inner">
         <div class="card__face card__back">
-          <img src="../assets/who-is-who.png" alt="Starý Lískovec ON" />
+          <img src="../assets/logo-liskovec-jsi-ty.png" alt="Starý Lískovec ON" />
         </div>
         <div class="card__face card__front">
           ${photoHtml}
