@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Favicon: a slanted ribbon echoing the "Lískovec jsi Ty!" logo's green
-     banner, with the brand violet as an accent bar. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Lískovec jsi Ty!">
+<!-- Favicon: the Piráti a Zelení pro Lískovec mark — a violet pirate flag
+     on its pole, inside a green ring, with a small green leaf at the base. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Piráti a Zelení pro Lískovec">
   <rect width="64" height="64" rx="14" fill="#ffffff"/>
-  <rect x="10" y="14" width="44" height="9" rx="4.5" fill="#7f3399"/>
-  <polygon points="6,38 58,30 58,42 6,50" fill="#8fba47"/>
+  <circle cx="32" cy="32" r="23" fill="none" stroke="#48c078" stroke-width="5"/>
+  <rect x="26.5" y="14" width="3.4" height="34" rx="1.5" fill="#5834a6"/>
+  <path d="M29.5 16 C40 17 42 22 46 23 C42 25 40 29 29.5 30 Z" fill="#5834a6"/>
+  <path d="M26.5 42 C22 42 19 45 18.5 49 C23 49 26 47 26.5 42 Z" fill="#48c078"/>
 </svg>
