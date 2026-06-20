@@ -88,7 +88,10 @@ const RENDER = (function () {
       var data = p[L()] || p.cs;
       var isZeleni = (p.party || "").toLowerCase().indexOf("zelen") === 0;
 
-      // FRONT face: our logo + a little hint
+      // FRONT face: our logo + a little hint. The top accent and hint colour
+      // follow the person's party, so 8 otherwise-identical logo fronts read
+      // as "a coalition of two parties" instead of one repeated stamp.
+      var partyClass = isZeleni ? "flip-card--zeleni" : "flip-card--pirati";
       var front = el("span", { class: "flip-card__face flip-card__face--front", children: [
         el("img", { attrs: { src: "assets/logo-liskovec-jsi-ty.png", alt: "", "aria-hidden": "true" } }),
         el("span", { class: "flip-card__hint", text: t("card_hint") }),
@@ -99,7 +102,7 @@ const RENDER = (function () {
       ]});
 
       // The whole image area is a real button so it works with the keyboard too.
-      var btn = el("button", { class: "flip-card", attrs: {
+      var btn = el("button", { class: "flip-card " + partyClass, attrs: {
         type: "button", "aria-pressed": "false",
         "aria-label": t("card_flip_to_photo") + ": " + p.name,
       }, children: [ el("span", { class: "flip-card__inner", children: [front, back] }) ] });
